@@ -9,46 +9,147 @@
   <link rel="stylesheet2" href="./CSS/main.css">
   <style>
     .top-bar {
-      
+      height: 40px;
+      align-items: center;
       padding: 20px;
       border: 2px solid rgb(158, 158, 158);
+      /* Trying to center child elements using CSS3's flexible box layout and set element spacing.
+       display: flex
+       */
       display: flex;
       justify-content: space-between;
     }
+
     .top-bar #p_img {
       border-radius: 50%;
       width: 50px;
       height: 50px;
 
     }
+
     .top-bar button {
       align-items: center;
       margin-left: 10px;
 
     }
+
+    #web_name {
+      font-size: larger;
+      font-weight: bolder;
+
+
+
+    }
+
+    .meal_cate button {
+      border: none;
+      background-color: white;
+      font-weight: bold;
+
+    }
+
+    .welcome {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      background-color: skyblue;
+      
+      
+      
+
+      
+    }
+
+    .welcome div:first-child {
+      font-size: 40px;
+      font-weight: bold;
+      position: absolute;
+      top: 50px;
+    }
+
+    .welcome div:nth-child(2) {
+      color: grey;
+      font-size: smaller;
+      position: absolute;
+      top: 120px;
+    }
+
+    .welcome div:nth-child(3) {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 160px;
+    }
+
+    .welcome div:nth-child(3) button:first-child {
+     
+      background-color: white;
+      color: black;
+      margin-right: 10px;
+      border-radius: 5px;
+      width: 100px;
+      
+    }
+
+    .welcome div:nth-child(3) button:nth-child(2) {
+      background-color: black;
+      color: white;
+      margin-left: 10px;
+      border-radius: 5px;
+      width: 100px;
+    }
+
+    .welcome div:last-child button {
+      margin-top: 10px;
+      border: none;
+      background-color: lightgray;
+      color: black;
+      border-radius: 5px;
+    }
   </style>
 </head>
 
 <body>
-  <div class="top-bar">
-    <img id="p_img" src="./images/eriri.png" alt="profile picture">
-    <h1>Recipe Sharing Website</h1>
-    <div>
-      <button>Chinese</button>
-      <button>Japanese</button>
-      <button>Korean</button>
-      <button>Italian</button>
-      <button>American</button>
-      <button>Dessert</button>
-      <button>Accounts</button>
-    </div>
-  </div>
-  <div class="header"></div>
-  <div class="content"></div>
-  <div class="footer">
-    <span>About Us</span>
-    <span>Privacy Policy</span>
+  <div class="container">
+    <!-- head -->
+    <div class="top-bar">
+      <img id="p_img" src="./images/eriri.png" alt="profile picture">
+      <h1 id="web_name">Recipe Sharing Website</h1>
+      <div class="meal_cate">
+        <button>Chinese</button>
+        <button>Japanese</button>
+        <button>Korean</button>
+        <button>Italian</button>
+        <button>American</button>
+        <button>Dessert</button>
+        <button>Accounts</button>
+      </div>
 
+    </div>
+    <div class="welcome">
+      <div>Welcome to our Recipe Sharing Site</div>
+      <div>Discover and share delicious recipes from around the world.</div>
+      <div>
+        <button>Login</button><button>Sign Up</button>
+      </div>
+      <div>
+        <button>Recommaende</button>
+        <button>Featured</button>
+        <button>User Reviews</button>
+      </div>
+
+
+    </div>
+    <div class="header"></div>
+    <div class="content"></div>
+    <!-- <div class="footer">
+      <span>About Us</span>
+      <span>Privacy Policy</span>
+
+    </div> -->
   </div>
 
 
