@@ -1,0 +1,631 @@
+        /* basic structure */
+        .container {
+          width: 1440px;
+          margin: 0 auto;
+
+        }
+        .leftfix {
+          float: left;
+        }
+
+        .rightfix {
+          float: right;
+        }
+
+        .clearfix::after {
+          content: "";
+          display: block;
+          clear: both;
+        }
+
+        /* 顶部导航栏 */
+        .topbar {
+          height: 35px;
+          background-color: rgb(210, 210, 210);
+        }
+
+        .wel {
+          height: 35px;
+          line-height: 35px;
+          font-size: 0;
+          color: black;
+        }
+
+        .wel span {
+          font-size: 15px;
+        }
+
+        .top_nav li {
+          height: 35px;
+          line-height: 35px;
+          float: left;
+        }
+
+        .top_nav li a {
+          text-decoration: none
+        }
+
+        .top_nav .login {
+          padding-right: 10px;
+          border-right: 2px solid gray;
+        }
+
+        .top_nav .register {
+          padding-left: 10px;
+          padding-right: 10px;
+          border-right: 2px solid gray;
+        }
+
+        .top_nav .home_page {
+          padding-left: 10px;
+        }
+
+        /* header */
+        .header {
+          height: 80px;
+
+        }
+
+        .header .left_info {
+
+          height: 40px;
+
+
+        }
+
+        .header .left_info #p_img {
+          float: left;
+          margin-top: 20px;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          vertical-align: middle;
+
+        }
+
+        .header .left_info h1 {
+          /* font-size: 28px; */
+          float: left;
+          padding: 20px;
+          height: 40px;
+          font-weight: bold;
+          line-height: 40px;
+          vertical-align: middle;
+        }
+
+        .right_bar {
+          height: 40px;
+          line-height: 40px;
+        }
+
+        .right_bar .list li {
+          float: left;
+          padding-top: 20px;
+          padding-right: 10px;
+
+        }
+
+        .right_bar .list li a {
+
+          color: black;
+          font-weight: bold;
+          text-decoration: none;
+        }
+
+        .right_bar .list li:last-child {
+          padding-right: 0;
+        }
+
+        /* 主欢迎页 */
+        .welcome {
+          height: 396px;
+          background-color: skyblue;
+          padding: 60px 170px;
+
+        }
+
+        .welcome .container {
+
+          height: 276px;
+        }
+
+        .welcome .chart {
+          width: 1100px;
+          height: 276px;
+          text-align: center;
+
+        }
+
+        .welcome div:first-child {
+          width: 520px;
+          height: 96px;
+          font-size: 40px;
+          line-height: 40px;
+        }
+
+        .welcome div:nth-child(2) {
+          margin-top: 24px;
+          width: 520px;
+          height: 24px;
+          color: white;
+          font-size: 16px;
+          line-height: 16px;
+
+        }
+
+        .welcome div:nth-child(3) {
+          height: 48px;
+          width: 332px;
+          padding-top: 24px;
+          margin-left: 93px;
+        }
+
+        .welcome div:nth-child(3) button:first-child {
+
+          background-color: white;
+          color: black;
+          margin-right: 10px;
+          border-radius: 5px;
+          width: 160px;
+          height: 48px;
+          border:none;
+
+        }
+
+        .welcome div:nth-child(3) button:nth-child(2) {
+          background-color: black;
+          color: white;
+          border-radius: 5px;
+          width: 160px;
+          height: 48px;
+        }
+
+        .welcome div:last-child {
+
+          width: 384px;
+          height: 36px;
+          margin-top: 24px;
+
+        }
+
+        .welcome .last_but {
+          width: 384px;
+          height: 36px;
+          margin-left: 66px;
+
+
+        }
+
+        .welcome .last_but button {
+          width: 120px;
+          height: 36px;
+
+          border: none;
+          background-color: lightgray;
+          color: black;
+          border-radius: 5px;
+
+        }
+
+
+        .second_part {
+          
+
+          
+          
+          height: 542px;
+          background-color: orange;
+          padding: 60px 170px;
+          
+
+          
+        }
+
+        .second_part .container {
+
+            
+           
+            height: 432px;
+            background-color: aliceblue;
+            position: relative;
+
+            border: 1px solid black;
+        }
+
+        .second_part .title {
+            
+            height: 48px;
+            line-height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 24px;
+
+            
+        }
+
+        .second_part .featured1 {
+            width: 240px;
+            height: 330px;
+            background-color: bisque;
+            position: absolute;
+            top: 69px;
+            
+            left: 100px;
+            border-radius: 15px;
+            
+
+        }
+
+        .featured1 a {
+            text-decoration: none;
+        }
+        .featured1 img {
+            height: 240px;
+            width: 240px;
+
+        }
+
+        .featured1 ul {
+            margin-top: 10px;
+            padding-left: 10px;
+          
+           
+        }
+
+        .featured1 ul li:first-child {
+           
+            margin-bottom: 10px;
+
+        }
+
+        .featured1 ul li:last-child {
+       
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+
+        }
+        /* 第二个 */
+        .second_part .featured2 {
+            width: 240px;
+            height: 330px;
+            background-color: bisque;
+            position: absolute;
+            top: 69px;
+            left: 430px;
+            border-radius: 15px;
+            
+
+        }
+
+        .featured2 a {
+            text-decoration: none;
+        }
+        .featured2 img {
+            height: 240px;
+            width: 240px;
+
+        }
+
+        .featured2 ul {
+            margin-top: 10px;
+            padding-left: 10px;
+          
+           
+        }
+
+        .featured2 ul li:first-child {
+           
+            margin-bottom: 10px;
+
+        }
+
+        .featured2 ul li:last-child {
+       
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        /* 第三个 */
+        .second_part .featured3 {
+            width: 240px;
+            height: 330px;
+            background-color: bisque;
+            position: absolute;
+            top: 69px;
+            
+            left: 770px;
+            border-radius: 15px;
+            
+
+        }
+
+        .featured3 a {
+            text-decoration: none;
+        }
+        .featured3 img {
+            height: 240px;
+            width: 240px;
+
+        }
+
+        .featured3 ul {
+            margin-top: 10px;
+            padding-left: 10px;
+          
+           
+        }
+
+        .featured3 ul li:first-child {
+           
+            margin-bottom: 10px;
+
+        }
+
+        .featured3 ul li:last-child {
+       
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        /* 第四个 */
+
+        .second_part .featured4 {
+            width: 240px;
+            height: 330px;
+            background-color: bisque;
+            position: absolute;
+            top: 69px;
+            
+            left: 1100px;
+            border-radius: 15px;
+            
+
+        }
+
+        .featured4 a {
+            text-decoration: none;
+        }
+        .featured4 img {
+            height: 240px;
+            width: 240px;
+
+        }
+
+        .featured4 ul {
+            margin-top: 10px;
+            padding-left: 10px;
+          
+           
+        }
+
+        .featured4 ul li:first-child {
+           
+            margin-bottom: 10px;
+
+        }
+
+        .featured4 ul li:last-child {
+       
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        .third_part .container {
+          height: 960px;
+          background-color: skyblue;
+          padding: 60px 170px;
+          vertical-align: middle;
+          
+
+      }
+
+      .third_part .container .title {
+          height: 480px;
+          line-height: 480px;
+
+          margin-top: 220px;
+         
+
+          font-size: 40px;
+          font-weight: bold;
+
+      }
+
+      .third_part .container .right_recommend {
+          margin-top: 70px;
+          width: 520px;
+          height: 840px;
+          background-color: azure;
+      }
+
+      .right_recommend .recommend1 {
+          background-color: green;
+          height: 216px;
+          border-radius: 10px;
+          background-color: rgb(240, 240, 240);
+          margin-bottom: 95px;
+
+      }
+
+      .right_recommend .recommend1 img {
+          margin: 15px;
+          height: 100px;
+          width: 100px;
+
+      }
+
+      .right_recommend .recommend1 ul {
+          margin-top: 15px;
+          height: 184px;
+          width: 372px;
+
+      }
+
+      .right_recommend .recommend1 ul li:first-child {
+          font-size: 20px;
+          font-weight: bold;
+          height: 28px;
+          line-height: 28px;
+          margin-bottom: 5px;
+          
+      }
+      .right_recommend .recommend1 ul li:nth-child(2) {
+          font-size: 14px;
+          color:gray;
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 5px;
+          
+      }
+      .right_recommend .recommend1 ul li:nth-child(3) {
+          font-size: 16px;
+          color: black;
+          height: 48px;
+          margin-bottom: 5px;
+          
+          
+      }
+
+      .right_recommend .recommend1 ul li:nth-child(4) {
+      
+          color: black;
+          height: 20px;
+          line-height: 20px;
+        
+  
+      }
+
+      .right_recommend .recommend1 ul li:nth-child(4) span {
+          background-color: rgb(225, 225, 225);
+          display: inline-block;
+          height: 16px;
+          line-height: 16px;
+          font-size: 12px;
+          width: 49px;
+          text-align: center;
+                   
+      }
+
+      .right_recommend .recommend1 ul li:nth-child(5) .user_info1 {
+          height: 28px;
+          margin-top: 15px;
+      
+          
+      }
+
+      .right_recommend .recommend1 ul li:nth-child(5) .user_info1 img {
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          border-radius: 50%;
+          vertical-align: middle;
+          margin:0;
+        
+      }
+
+      .right_recommend .recommend1 ul li:nth-child(5) .user_info1 span {
+          
+          height: 20px;
+          line-height: 20px;
+          display: inline-block;
+          font-size: 14px;
+          vertical-align: middle;
+          font-weight: bold;
+
+      }
+      .user_review {
+        padding: 60px 170px;
+        background-color: green;
+        height: 384px;
+
+    }
+
+    .user_review .container {
+        background-color: white;
+        height: 264px;
+    }
+
+    .user_review .container .title1 {
+
+        height: 48px;
+        line-height: 48px;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+
+        background-color: white;
+      
+        margin-bottom: 24px;
+    }
+
+    .user_review .container .reviews {
+        height: 192px;
+        
+        background-color: skyblue;
+       
+    }
+
+    .user_review .container .reviews div {
+        width: 340px;
+        height: 152px;
+        background-color: rgb(189, 189, 189);
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .user_review .container .reviews div:first-child {
+        width: 340px;
+        height: 152px;
+        background-color: rgb(189, 189, 189);
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-left: 170px;
+    }
+
+
+    .user_review .container .reviews div ul li {
+        width: 308px;
+        height: 32px;
+        line-height: 32px;
+        margin:10px;
+
+    }
+
+    .user_review .container .reviews div ul li:first-child img {
+        width: 32px;
+        height: 32px;
+
+       
+        border-radius: 50%;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    .user_review .container .reviews div ul li:first-child span {
+        
+       
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: bold;
+
+  
+    }
+
+    .user_review .container .reviews div ul li:nth-child(2) span {
+        
+        width: 308px;
+        height: 72px;           
+        font-size: 16px;
+    }
