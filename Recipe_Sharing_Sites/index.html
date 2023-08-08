@@ -6,53 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Sharing Site</title>
     <link rel="stylesheet" href="./CSS/cssreset.css">
-    <link rel="stylesheet" href="./CSS/html.css">
-    <style>
-
-        .footer .container {
-            height: 220px;
-            
-
-
-        }
-
-        .footer div {
-            height: 100px;
-            width: 300px;
-            margin-top: 60px ;
-            margin-bottom: 60px;
-            /* background-color: orange; */
-        }
-
-        .footer div span:first-child {
-            font-size: 20px;
-            display: inline-block;
-            height: 100px;
-            line-height: 100px;
-            margin-right: 60px;
-            font-weight: bold;
-       
-            
-        }
-
-        .footer div span:nth-child(2) {
-            font-size: 20px;
-            display: inline-block;
-            height: 100px;
-            line-height: 100px;
-            font-weight: bold;
-            
-       
-            
-        }
-
-        .footer div span a {
-            text-decoration: none; 
-            color: black;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="./CSS/index.css">
+ 
 </head>
 
 <body>
@@ -65,8 +20,8 @@
             </div>
             <!-- 右侧的导航区 -->
             <ul class="top_nav rightfix clearfix">
-                <li><a href="#" class="login">Login</a></li>
-                <li><a href="#" class="register">Register</a></li>
+                <li><a href="login.html" class="login">Login</a></li>
+                <li><a href="register.html" class="register">Register</a></li>
                 <li><a href="test.html" class="home_page">Back Home</a></li>
 
             </ul>
@@ -78,7 +33,7 @@
     <div class="header">
         <div class="container clearfix">
             <div class="left_info leftfix clearfix">
-                <img id="p_img" src="./images/eriri.png" alt="profile picture">
+                <img id="p_img" src="./images/umd-logo.png" alt="profile picture">
                 <h1>Welcome to our Recipe Sharing Site!</h1>
             </div>
 
@@ -98,26 +53,28 @@
             </div>
 
 
-
-
-
         </div>
 
     </div>
 
-    <!-- 内容区 -->
+    <!-- content -->
     <div class="welcome">
         <div class="container">
             <div class="chart">
                 <div>Welcome to our Recipe Sharing Site</div>
                 <div>Discover and share delicious recipes from around the world.</div>
                 <div>
-                    <button>Login</button><button>Sign Up</button>
+                    <a href="login.html" class="button1">Login</a>
+                    <a href="signup.html" class="button2">Sign Up</a>
+                    <!-- <button>Login</button><button>Sign Up</button> -->
                 </div>
                 <div class="last_but">
-                    <button>Recommaende</button>
+                    <a href="#">Recommended</a>
+                    <a href="#">Featured</a>
+                    <a href="#">User Reviews</a>
+                    <!-- <button>Recommaende</button>
                     <button>Featured</button>
-                    <button>User Reviews</button>
+                    <button></button> -->
                 </div>
             </div>
 
@@ -131,27 +88,27 @@
             <div class="title">
                 Featured Recipes
             </div>
-            <div class="featured1">
+            <div class="featured featured1">
                 <a href="#">
-                    <img src="./images/eriri.png" alt="meal">
+                    <img src="./images/sushi.jfif" alt="meal">
                     <div>
 
                         <ul>
                             <li>Japanese</li>
-                            <li>15 Recipes</li>
+                            <li>Sushi</li>
                         </ul>
                     </div>
                 </a>
             </div>
             <!-- 第二个 -->
-            <div class="featured2">
+            <div class="featured featured2">
                 <a href="#">
-                    <img src="./images/eriri.png" alt="meal">
+                    <img src="./images/Kunpao chicken.jpg" alt="meal">
                     <div>
 
                         <ul>
-                            <li>Japanese</li>
-                            <li>15 Recipes</li>
+                            <li>Chinese</li>
+                            <li>KUNGPAO CHICKEN</li>
                         </ul>
                     </div>
                 </a>
@@ -159,27 +116,27 @@
 
             <!-- 第三个 -->
 
-            <div class="featured3">
+            <div class="featured featured3">
                 <a href="#">
-                    <img src="./images/eriri.png" alt="meal">
+                    <img src="./images/hawaiianpizza.jpg" alt="meal">
                     <div>
 
                         <ul>
-                            <li>Japanese</li>
-                            <li>15 Recipes</li>
+                            <li>American</li>
+                            <li>Hawaiian Pizza</li>
                         </ul>
                     </div>
                 </a>
             </div>
             <!-- 第四个 -->
-            <div class="featured4">
+            <div class="featured featured4">
                 <a href="#">
-                    <img src="./images/eriri.png" alt="meal">
+                    <img src="./images/bibimbap.jfif" alt="meal">
                     <div>
 
                         <ul>
-                            <li>Japanese</li>
-                            <li>15 Recipes</li>
+                            <li>Korean</li>
+                            <li>Bibimbap</li>
                         </ul>
                     </div>
                 </a>
@@ -200,9 +157,9 @@
             <div class="right_recommend rightfix">
 
                 <!-- 第一个菜谱评价 -->
-                <div class="recommend1 clearfix">
+                <div class="recommend clearfix">
                     <div class="leftfix">
-                        <img src="./images/eriri.png" alt="meal1">
+                        <img src="./images/fried_rice.jfif" alt="meal1">
                     </div>
                     <ul class="detail rightfix">
                         <li>Fried Rice</li>
@@ -222,9 +179,9 @@
                 </div>
 
                 <!-- 第二个菜谱评价 -->
-                <div class="recommend1 clearfix">
+                <div class="recommend clearfix">
                     <div class="leftfix">
-                        <img src="./images/eriri.png" alt="meal1">
+                        <img src="./images/sushi.jfif" alt="meal1">
                     </div>
                     <ul class="detail rightfix">
                         <li>Sushi</li>
@@ -233,7 +190,7 @@
                         <li></li>
                         <li>
                             <div class="user_info1">
-                                <img src="./images/eriri.png" alt="user1">
+                                <img src="./images/shiyu.png" alt="user1">
                                 <span>Sushi Lover</span>
                             </div>
 
@@ -244,9 +201,9 @@
                 </div>
 
                 <!-- 第三个菜谱评价 -->
-                <div class="recommend1 clearfix">
+                <div class="recommend clearfix">
                     <div class="leftfix">
-                        <img src="./images/eriri.png" alt="meal1">
+                        <img src="./images/bibimbap.jfif" alt="meal1">
                     </div>
                     <ul class="detail rightfix">
                         <li>Bibimbap</li>
@@ -255,7 +212,7 @@
                         <li><span>Healthy</span></li>
                         <li>
                             <div class="user_info1">
-                                <img src="./images/eriri.png" alt="user1">
+                                <img src="./images/hui.png" alt="user1">
                                 <span>Sushi Lover</span>
                             </div>
 
@@ -295,7 +252,7 @@
                 <div class="leftfix">
                     <ul>
                         <li>
-                            <img src="./images/eriri.png" alt="user_info1">
+                            <img src="./images/shiyu.png" alt="user_info1">
                             <span>CookingRnthusiast</span>
                         </li>
                         <li>
@@ -311,7 +268,7 @@
                 <div class="leftfix">
                     <ul>
                         <li>
-                            <img src="./images/eriri.png" alt="user_info1">
+                            <img src="./images/hui.png" alt="user_info1">
                             <span>Foodie123</span>
                         </li>
                         <li>

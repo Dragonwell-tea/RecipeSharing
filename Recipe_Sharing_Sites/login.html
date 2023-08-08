@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recipe-Sharing Login</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./CSS/cssreset.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container clearfix">
+            <!-- 左侧的欢迎区 -->
+            <div class="wel leftfix">
+                <span>Welcome to this recipe site!</span>
+            </div>
+            <!-- 右侧的导航区 -->
+            <ul class="top_nav rightfix clearfix">
+                <li><a href="login.html" class="login1">Login</a></li>
+                <li><a href="register.html" class="register">Register</a></li>
+                <li><a href="index.html" class="home_page">Back Home</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="login">
+        <div class="login-container">
+        
+            <form action="personal_information.html" target="_self" method="post">
+                <table>
+                    <caption>Log In</caption>
+                    <tbody>
+                        <tr>
+                            <td class="attri">
+                                <label for="uid">UserName:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="uid" name="userid" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="attri">
+                                <label for="pwd">Password:</label>                         
+                            </td>
+                            <td>
+                                <input type="password" id="pwd" name="paasword" required>   
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <button class="custom_but" type="submit">Login</button>
+                            </td>
+                
+                        </tr>
+                        
+                    </tfoot>
+                  </table>
+            </form>
+            <div>
+                <a id="register" href="#">Not have an account?</a>
+            </div>
+            
+        </div>
+
+
+    </div>
+    
+
+</body>
+
+</html>
