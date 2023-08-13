@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Site</title>
+    <link rel="stylesheet" href="./CSS/cssreset.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script>
+         function handleDessertClick(event) {
+    
+            event.preventDefault();
+     
+            alert("This part of the recipe is not yet open, please also check out the other recipes!");
+        }
+    </script>
+ 
+</head>
+
+<body>
+    <!-- 顶部导航栏 -->
+    <div class="topbar">
+        <div class="container clearfix">
+            <!-- left part -->
+            <div class="wel leftfix">
+                <span>Welcome to this recipe site!</span>
+            </div>
+            <!--right part nav -->
+            <ul class="top_nav rightfix clearfix">
+                <li><a href="login.html" class="login">Login</a></li>
+                <li><a href="register.html" class="register">Register</a></li>
+                <!-- <li><a href="test.html" class="home_page">Back Home</a></li> -->
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 头部 -->
+    <div class="header">
+        <div class="container clearfix">
+            <div class="left_info leftfix clearfix">
+                <img id="p_img" src="./images/umd-logo.png" alt="profile picture">
+                <h1>Welcome to our Recipe Sharing Site!</h1>
+            </div>
+
+            <div class="right_bar rightfix">
+                <ul class="list leftfix clearfix">
+                    <li><a href="Ch.html">Chinese</a></li>
+                    <li><a href="Jp.html">Japanese</a></li>
+                    <li><a href="Kr.html">Korean</a></li>
+                    <!-- <li><a href="#">Italian</a></li> -->
+                    <li><a href="American.html">American</a></li>
+                    <li><a href="Dessert.html" onclick="handleDessertClick(event)">Dessert</a></li>
+                    <li><a href="Personal_information.html">MyAccount</a></li>
+
+                </ul>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- content -->
+    <div class="welcome">
+        <div class="container">
+            <div class="chart">
+                <div>Welcome to our Recipe Sharing Site</div>
+                <div>Discover and share delicious recipes from around the world.</div>
+                <div>
+                    <a href="login.html" class="button1">Login</a>
+                    <a href="signup.html" class="button2">Sign Up</a>
+                    <!-- <button>Login</button><button>Sign Up</button> -->
+                </div>
+                <div class="last_but">
+                    <a href="#recom">Recommended</a>
+                    <a href="#feat">Featured</a>
+                    <a href="#rew">User Reviews</a>
+                    <!-- <button>Recommaende</button>
+                    <button>Featured</button>
+                    <button></button> -->
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="second_part">
+        <div class="container">
+            <div class="title" id="feat">
+                Featured Recipes
+            </div>
+            <div class="featured featured1">
+                <a href="./Jp_recipe/Sushi.html">
+                    <img src="./images/sushi.png" alt="meal">
+                    <div>
+
+                        <ul>
+                            <li>Japanese</li>
+                            <li>Sushi</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+            <!-- 第二个 -->
+            <div class="featured featured2">
+                <a href="./CN_recipe/Kungpao.html">
+                    <img src="./images/Kunpao chicken.jpg" alt="meal">
+                    <div>
+
+                        <ul>
+                            <li>Chinese</li>
+                            <li>KUNGPAO CHICKEN</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <!-- 第三个 -->
+
+            <div class="featured featured3">
+                <a href="./Us_recipe/pizza.html">
+                    <img src="./images/Hawaiian Pizza3.jpg" alt="meal">
+                    <div>
+
+                        <ul>
+                            <li>American</li>
+                            <li>Hawaiian Pizza</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+            <!-- 第四个 -->
+            <div class="featured featured4">
+                <a href="./KR_recipe/bibimbap.html">
+                    <img src="./images/bibimbap.png" alt="meal">
+                    <div>
+
+                        <ul>
+                            <li>Korean</li>
+                            <li>Bibimbap</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="third_part">
+        <div class="container clearfix">
+            <div class="title leftfix" id="recom">
+                Recommended Recipes
+            </div>
+            <div class="right_recommend rightfix">
+
+                <!-- First -->
+                <div class="recommend clearfix">
+                    <div class="leftfix">
+                        <img src="./images/fried_rice.png" alt="meal1">
+                    </div>
+                    <ul class="detail rightfix">
+                        <li>Fried Rice</li>
+                        <li>Chinese Cuisine</li>
+                        <li>A classic Chinese dish made with rice, egg, and vegetables.</li>
+                        <li><span>Quick</span>&nbsp;<span>Easy</span></li>
+                        <li>
+                            <div class="user_info1">
+                                <img src="./images/eriri.png" alt="user1">
+                                <span>Cooking Guru</span>
+                            </div>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <!-- second -->
+                <div class="recommend clearfix">
+                    <div class="leftfix">
+                        <img src="./images/sushi.png" alt="meal1">
+                    </div>
+                    <ul class="detail rightfix">
+                        <li>Sushi</li>
+                        <li>Japanese Cuisine</li>
+                        <li>Delicious bite-sized rolls of rice and seafood, perfect for any occasion</li>
+                        <li></li>
+                        <li>
+                            <div class="user_info1">
+                                <img src="./images/shiyu.png" alt="user1">
+                                <span>Sushi Lover</span>
+                            </div>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <!-- third -->
+                <div class="recommend clearfix">
+                    <div class="leftfix">
+                        <img src="./images/bibimbap.png" alt="meal1">
+                    </div>
+                    <ul class="detail rightfix">
+                        <li>Bibimbap</li>
+                        <li>Korean Cuisine</li>
+                        <li>A delicious mixed rice dish topped with assorted vegetables and meat</li>
+                        <li><span>Healthy</span></li>
+                        <li>
+                            <div class="user_info1">
+                                <img src="./images/hui.png" alt="user1">
+                                <span>Sushi Lover</span>
+                            </div>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="user_review">
+        <div class="container">
+            <div class="title1" id="rew">User Reviews</div>
+            <div class="reviews clearfix">
+                <!-- first user review -->
+                <div class="leftfix">
+                    <ul>
+                        <li>
+                            <img src="./images/eriri.png" alt="user_info1">
+                            <span>Shiyu</span>
+                        </li>
+                        <li>
+                            <span>
+                                The recipes on this site are amazing! I've tried several and they never disappoint.
+                            </span>
+
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- second user review- -->
+                <div class="leftfix">
+                    <ul>
+                        <li>
+                            <img src="./images/shiyu.png" alt="user_info1">
+                            <span>CookingRnthusiast</span>
+                        </li>
+                        <li>
+                            <span>
+                                I love the varity of recipes available. It's so easy to find something new to try.
+                            </span>
+
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- third user review-->
+                <div class="leftfix">
+                    <ul>
+                        <li>
+                            <img src="./images/hui.png" alt="user_info1">
+                            <span>Foodie123</span>
+                        </li>
+                        <li>
+                            <span>
+                                The recipes are well-written and easy to follow. The results are always delicious.
+                            </span>
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div>
+                <span><a href="./About.html">About Us</a></span>
+                <span><a href="./Privacy.html">Privacy Policy</a></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

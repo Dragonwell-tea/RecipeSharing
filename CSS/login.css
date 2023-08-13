@@ -1,0 +1,167 @@
+
+
+.leftfix {
+    float: left;
+  }
+
+  .rightfix {
+    float: right;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .topbar {
+    height: 40px;
+    background-color: rgb(210, 210, 210);
+  }
+
+  .wel {
+    margin-left: 10%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0;
+    color: black;
+  }
+
+  .wel span {
+    font-size: 15px;
+  }
+
+  .top_nav li {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+  }
+
+  .top_nav li a {
+    text-decoration: none;
+    color:black;    
+}
+
+.top_nav li a:hover {
+    color: red;
+}
+
+  .top_nav .login1 {
+    padding-right: 10px;
+    border-right: 2px solid gray;
+  }
+
+  .top_nav .register {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid gray;
+  }
+
+  .top_nav .home_page {
+    padding-left: 10px;
+    padding-right: 40px;
+  }
+
+.login {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: skyblue; */
+    background-image: url("../images/loginbg.jpg");
+    background-position: center;
+    height: 100vh;
+
+}
+.login-container {
+    width: 600px;
+    border-radius: 10px;
+    height: 500px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.login-container span {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+/* .input-container { */
+  /* display: flex;
+  justify-content: space-between; */
+  /* align-items: center; */
+  /* margin-bottom: 20px; */
+/* } */
+
+.input-container input {
+  
+  font-size: 20px;
+}
+
+table caption {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 10%;
+}
+
+table {
+  width: 100%; 
+  table-layout: fixed;
+  border-spacing: 10px;
+  /* border: 2px green solid; */
+
+
+}
+
+tr {
+  height: 70px;
+  padding: 20px; 
+}
+
+tr td {
+  text-align: left;
+}
+
+tr td label {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 40%;
+}
+
+tr td input {
+  height: 40px;
+  width: 75%;
+  
+
+}
+
+.attri {
+  width: 40%
+
+}
+
+.custom_but {
+
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  border-image-slice: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: black;
+  font-size: 25px;
+
+  border-radius: 10px;    
+
+}
+
+.custom_but:hover {
+  background-color: gray;
+  color: #ddd;
+}
+
+
