@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/cssreset.css">
+    <title>privacy</title>
+    <style>
+        body {
+
+            line-height: 1.6;
+            background-color: #F4F4F4;
+            height: 200vhs;
+        }
+
+        .container {
+            max-width: 1440px;
+            width: 100%;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+
+
+        }
+
+        .leftfix {
+            float: left;
+        }
+
+        .rightfix {
+            float: right;
+
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .topbar {
+            background-color: lightgray;
+        }
+
+        header {
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            margin-bottom: 40px;
+
+
+
+        }
+
+        header .container {
+            padding-top: 5px;
+            border-bottom: 5px solid rgb(126, 0, 0);
+            padding-bottom: 5px;
+
+
+        }
+
+        header .left {
+            line-height: 80p;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header .left img {
+            width: 60px;
+            height: 60px;
+
+
+
+        }
+
+        header .left span {
+            font-weight: bold;
+            margin-left: 30px;
+            font-size: 35px;
+        }
+
+        header .right li {
+            float: left;
+        }
+
+        .right li {
+            margin-right: 5px;
+            padding: 0 10px;
+            background-color: lightblue;
+            border-radius: 5px;
+
+        }
+
+        .right li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .right li:hover {
+            background-color: white;
+            border: 1px solid black;
+            transition: background-color 0.5s;
+        }
+
+        .right li:hover a {
+            color: black;
+        }
+
+        .content .container {
+
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .container {
+
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topbar">
+        <div class="container">
+            <span>Privacy</span>
+        </div>
+    </div>
+
+    <header>
+        <div class="container clearfix">
+            <div class="left leftfix">
+                <img src="./images/umd-logo.png" alt="umd">
+                <span>Privacy Policy(Beta)</span>
+            </div>
+
+            <ul class="right rightfix clearfix">
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="content">
+        <div class="container">
+            <h1>Privacy Policy(Beta)</h1>
+
+            <h2>1. Information Collection</h2>
+            <p>We collect personal and non-personal information when you use our services. Personal information might
+                include your name, email address, and location, while non-personal data could include device type,
+                browser, and other technical attributes.</p>
+
+            <h2>2. Use of Information</h2>
+            <p>We use the collected information to improve user experience, troubleshoot issues, communicate with you,
+                and deliver targeted marketing content.</p>
+
+            <h2>3. Cookies</h2>
+            <p>this website uses cookies to enhance user experience and gather analytics data. You can decline cookies
+                in your browser settings, but certain features of our services might not work.</p>
+
+            <h2>4. Third-party Access</h2>
+            <p>We don't sell your personal information to third parties. We might share your information with our
+                service partners for operational needs, but they are bound by similar privacy obligations.</p>
+
+            <h2>5. Data Security</h2>
+            <p>We employ industry-accepted standards in protecting your data. However, no method is 100% secure, and
+                thus we cannot guarantee absolute data security.</p>
+
+            <h2>6. Minors</h2>
+            <p>Our services are not designed for individuals below 18 years of age. If we discover that a minor has
+                provided us with personal information, we will delete such data from our servers.</p>
+
+            <h2>7. Changes to this Policy</h2>
+            <p>We may update our privacy policy occasionally. When significant changes are made, we will notify you
+                either through the email address you have provided us or by placing a prominent notice on our website.
+            </p>
+
+            <h2>8. Contact Us</h2>
+            <p>For any queries regarding our privacy policy, please reach out to <a
+                    href="mailto:email@example.com">jzhang98@umd.edu</a>.</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+
+            <h2 style="font-size: 30px;">Source from</h2>
+            <p>The recipe information and recipe images on this site come from Internet sources</p>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

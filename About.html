@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/cssreset.css">
+    <title>About Me</title>
+    <style>
+        .container {
+            max-width: 1440px;
+            width: 100%;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+
+        .leftfix {
+            float: left;
+        }
+
+        .rightfix {
+            float: right;
+
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .topbar {
+            background-color: lightgray;
+        }
+
+        header {
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            margin-bottom: 40px;
+
+
+
+        }
+
+        header .container {
+            padding-top: 5px;
+            border-bottom: 5px solid rgb(126, 0, 0);
+            padding-bottom: 5px;
+
+
+        }
+
+        header .left {
+            line-height: 80p;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header .left img {
+            width: 60px;
+            height: 60px;
+
+
+
+        }
+
+        header .left span {
+            font-weight: bold;
+            margin-left: 30px;
+            font-size: 35px;
+        }
+
+        header .right li {
+            float: left;
+        }
+
+        .right li {
+            margin-right: 5px;
+            padding: 0 10px;
+            background-color: lightblue;
+            border-radius: 5px;
+
+        }
+
+        .right li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .right li:hover {
+            background-color: white;
+            border: 1px solid black;
+            transition: background-color 0.5s;
+        }
+
+        .right li:hover a {
+            color: black;
+        }
+
+        .content {
+            padding: 20px 30px;
+        }
+
+        .content h1 {
+            font-size: 50px;
+            color: rgb(225, 0, 0);
+        }
+
+        .content .about-section {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        
+        }
+
+        .content .about_section h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            color: red;
+            text-align: center;
+        }
+
+        .content .about_section h2 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            color: gray;
+            border-bottom: 2px solid lightgray;
+            padding-bottom: 10px;
+
+        }
+
+        .content .about_section p {
+            font-size: 20px;
+            margin-bottom: 15px;
+            /* Twice the font size */
+            line-height: 2;
+            color: #666;
+        }
+
+        .content .subsection {
+            margin-bottom: 30px;
+
+        }
+
+
+        .content .about_section p {
+            text-indent: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container">
+            <span>About Website&Me</span>
+        </div>
+    </div>
+    <header>
+        <div class="container clearfix">
+            <div class="left leftfix">
+                <img src="./images/umd-logo.png" alt="umd">
+                <span>About Me</span>
+            </div>
+
+            <ul class="right rightfix clearfix">
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="container about_section">
+            <h1>About Me</h1>
+            <div class="subsection">
+                <h2>Breif Introduction</h2>
+                <p>Hi! I'm the author of this website and I'm a current master's student at the University of
+                    Maryland majoring in Information Management, this is my first time creating a website! I have
+                    encountered a lot of problems during the process of building it, although my solution may not 
+                    be too perfect, but I am with happy every time I solved a small problem, 
+                    and I believe that with the more I learn about web development, I can be more and more
+                    better to deal with some of the problems on the development.</p>
+
+
+            </div>
+
+            <div class="subsection">
+                <h2>About this site</h2>
+                <p>Currently, the layout style of the web page looks simple at the moment, and doesn't have a lot of
+                    complex layout modules and too much information.
+                </p>
+                <p>
+                    In the development of my website, for the left and right layout of some different modules on the
+                    webpage, I used a lot of floats to solve it, relative positioning and absolute positioning I did not
+                    use too much, as I am also learning while trying to make this website, so in the subsequent several
+                    webpages of the layout design style, I began to try the use of the layout of the heart, I found that the
+                    design of the heart of the layout of the page layout is a better way, I'm slowly trying to make my page
+                    layout coordinated and beautiful. I am slowly trying to make my page layouts coordinated and aesthetically
+                    pleasing.
+
+                </p>
+                <p>
+                    I'm also trying to find some CSS rules to make some of my modules look good, such as when the mouse
+                    hovers over the navigation bar in the header, the background of the font and some changes in color.
+                    For layouts such as vertical centering, I tried to use CSS3 rules such as flexible boxes, which I found
+                    made it easier to handle some layouts.
+                </p>
+                <p>
+                    I didn't use Javascript too much, but only implemented form integrity checking and popups on a few
+                    pages, such as the login page, the registration page, and the share menu module on the personal
+                    page.
+                </p>
+                <p>
+                    I will slowly improve this site in the future!
+                </p>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
