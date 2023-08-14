@@ -22,11 +22,13 @@
             margin: 0 auto;
             padding-left: 15px;
             padding-right: 15px;
+           
         }
 
         header {
             height: 80px;
-            background-color: rgb(192, 192, 192);
+            background-color: #F4F4F4;
+           
 
         }
 
@@ -79,7 +81,10 @@
             align-items: center;
             height: 220px;
 
-            background-color: skyblue;
+            /* background-color: skyblue; */
+            background-image: url("../images/bg2.jpg");
+            background-position: center;
+            background-size: cover;
             padding: 60px 170px;
             border-bottom: 2px solid gray;
 
@@ -151,7 +156,7 @@
         /* #region second_part */
         .second_part {
             height: 300px;
-            background-color: orange;
+            /* background-color: orange; */
             border-bottom: 2px solid gray;
 
 
