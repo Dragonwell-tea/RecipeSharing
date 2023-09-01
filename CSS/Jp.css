@@ -106,7 +106,7 @@ header .right_nav ul li {
 
 header .right_nav ul li:hover {
     background-color: rgb(196, 10, 10);
-    transition: background-color 1s;
+    transition: 1s;
     border-radius: 10px;
     
 }
@@ -198,7 +198,7 @@ header .right_nav ul li:hover a {
 
 .content .sidebar ul li:hover {
     background-color: skyblue;
-    transition: background-color 0.5s;
+    transition: 0.5s;
 }
 
 .content .sidebar li :hover .sub_like {
