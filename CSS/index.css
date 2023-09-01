@@ -327,6 +327,7 @@
 
         .featured:hover {
           box-shadow: 0px 0px 20px black;
+          transform: scale(1.02);
   
         }
 
